@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+}
+
+.tooltips-container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.tooltip{
+    width: 150px;
+    height: 40px;
+    background: #6c757d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #eee;
+}
+
+
+.tooltip:hover{
+    background: #545b62;
+}
+
+.tooltipElemDis{
+    position: fixed;
+    background: rgba(212, 206, 206, 0.2);
+    width: 130px;
+    height: 25px;
+    color: #545b62;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
